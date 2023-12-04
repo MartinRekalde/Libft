@@ -6,7 +6,7 @@
 /*   By: mrekalde <mrekalde@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 16:08:52 by mrekalde          #+#    #+#             */
-/*   Updated: 2023/10/11 12:55:29 by mrekalde         ###   ########.fr       */
+/*   Updated: 2023/12/04 16:13:08 by mrekalde         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ int	fill_words(char **array, char const *s, char c)
 		if (!array[word_index])
 		{
 			ft_clean(array);
-			return (1);
+			return (0);
 		}
 		++word_index;
 	}
